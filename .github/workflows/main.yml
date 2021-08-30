@@ -44,7 +44,6 @@ jobs:
         copy "Visual Studio 2019.lnk" "C:\Users\Public\Desktop\Visual Studio 2019.lnk"
         copy Growtopia.lnk C:\Users\Public\Desktop\Growtopia.lnk
         copy teohook.dll C:\Users\Public\Desktop\teohook.dll
-        copy fixed_Inject_Teohook.bat C:\Users\Public\Desktop\fixed_Inject_Teohook.bat
     - name: Create Tunnels
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Connect to your RDP
