@@ -23,7 +23,6 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/agasR/garhook/main/launcher/Growtopia.lnk -OutFile Growtopia.lnk
         Invoke-WebRequest https://raw.githubusercontent.com/agasR/garhook/main/launcher/teohook.dll -OutFile teohook.dll
         Invoke-WebRequest https://cdn.discordapp.com/attachments/705906948922540044/878683182034190346/Growtopia.zip -OutFile Growtopia.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/agasR/garhook/main/launcher/fixed_Inject_Teohook -OutFile Inject_Teohook.bat
         md C:\Users\administrator\Growtopia
         copy Growtopia.zip C:\Users\administrator\Growtopia\Growtopia.zip
         Expand-Archive -LiteralPath 'C:\Users\administrator\Growtopia\Growtopia.zip' -DestinationPath C:\Users\administrator\Growtopia
